@@ -15,3 +15,23 @@ let q4 = document.querySelector("q4");
 let q5 = document.querySelector("q5");
 let q6 = document.querySelector("q6");
 let q7 = document.querySelector("q7");
+
+
+
+let a71 = document.querySelector(".a71").value;
+let a72 = document.querySelector(".a72").value;
+let a73 = document.querySelector(".a73").value;
+let displayOrder = document.querySelector(".display-order");
+ displayOrder.innerHTML = `Your Order: ${a71}, with a side of ${a72}, and ${a73} as your drink.` ;
+  
+  displayOrder.classList.remove("fade-in");
+  void displayOrder.offsetWidth;
+  displayOrder.classList.add("fade-in");
+
+let fs = document.querySelector("finalscore");  
+let fbtn = document.querySelector("finalbtn");
+fbtn.addEventListener("click", function () {
+    fs.innerHTML = `you got a $()/7`;
+});
+
+

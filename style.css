@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(0, 150, 68);
+}
+
+.btn1, .btn2, .finalbtn{
+background-color: rgb(242, 182, 1);
+}
+
+.a4, .a5, .a6, .a71, .a72, .a73{
+    background-color: rgb(242, 182, 1);
+    color: rgb(0, 150, 0);
+}
+
+.radio{
+    background-color: rgb(242, 182, 1);
+}
