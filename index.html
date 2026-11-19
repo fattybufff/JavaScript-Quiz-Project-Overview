@@ -11,36 +11,39 @@
 
       <form action="/action_page.php">
   <p class="q1">What color is an elepahant?</p>
-  <input type="radio" id="grey" name="color" value="Grey">
+  <input type="radio" id="grey" name="color1" value="Grey"> <!-- wrong -->
   <label for="grey">Grey</label><br>
   
-  <input type="radio" id="yellow" name="color" value="Yellow">
+  <input type="radio" id="yellow" name="color2" value="Yellow"> <!-- wrong -->
   <label for="yellow">Yellow</label><br>
   
-  <input type="radio" id="gray" name="color" value="Gray">
-  <label for="grey">Gray</label> <br>
+  <input type="radio" id="gray" name="color3" value="Gray"> <!-- right -->
+  <label for="gray">Gray</label> <br>
   
-  <input type="radio" id="blue" name="color" value="Blue">
+  <input type="radio" id="blue" name="color4" value="Blue"> <!-- wrong -->
   <label for="blue">Blue</label>
 
 
 
       <p class="q2">Whats the square root of "9"?</p>
-  <input type="radio" id="#1" name="age" value="1">
-  <label for="#1">1</label><br>
+  <input type="radio" id="1" name="num1" value="1"> <!-- wrong -->
+  <label for="1">1</label><br>
   
-  <input type="radio" id="#9" name="age" value="9">
-  <label for="#v2">9</label><br>  
+  <input type="radio" id="9" name="num2" value="9"> <!-- wrong -->
+  <label for="9">9</label><br>  
   
-  <input type="radio" id="#3" name="age" value="3">
-  <label for="c3">3</label><br>
+  <input type="radio" id="3" name="num3" value="3"> <!-- right -->
+  <label for="3">3</label><br>
   
-  <input type="radio" id="#67" name="age" value="67">
-  <label for="#3">67</label>
+  <input type="radio" id="67" name="num4" value="67"> <!-- wrong -->
+  <label for="67">67</label>
 
       <p class="q3">The Weeknd is the goat?</p>
-      <button class="btn1">True</button> <br> <!-- right -->
-      <button class="btn2">False</button> <br> <!-- wrong -->
+    <input type="radio" id="true" name="agree" value="True"> <!-- right -->
+    <label for="true">True</label><br>
+
+    <input type="radio" id="f" name="disagree" value="False"> <!-- wrong -->
+    <label for="f">False</label><br>
 
       <p class="q4">Solve this equation (3 x 23 - 2)</p>
       <input class="a4" placeholder="Answer Here">
@@ -52,7 +55,7 @@
 
       <p class="q6">what is you favorite color?</p>
       <input class="a6" placeholder="Answer Here">
-      <!-- Onclick function where user picks fav color and that color becomes the background color -->
+        <!-- display background color function. also has to be a question that can be scores and be correct or incorrect -->
 
       <p class="q7">What do you get from Subway? (food, side, and drink)</p>
       <input class="a71" placeholder="Main Item">

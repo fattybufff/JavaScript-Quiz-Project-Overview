@@ -1,37 +1,91 @@
-let btn1 = document.querySelector("btn1");
-let btn2 = document.querySelector("btn2");
-let btn3 = document.querySelector("btn3");
-let btn4 = document.querySelector("btn4");
-let btn5 = document.querySelector("btn5");
-let btn6 = document.querySelector("btn6");
-let btn7 = document.querySelector("btn7");
-let btn8 = document.querySelector("btn8");
-let btn9 = document.querySelector("btn9");
-let btn10 = document.querySelector("btn10");
-let q1 = document.querySelector("q1");
-let q2 = document.querySelector("q2");
-let q3 = document.querySelector("q3");
+let x = 0;
+
+//---------------------------------------------- q1
+
+let sv1 = document.querySelector('input[name="color3"]:checked')?.value
+if(sv1 === 'Gray'){
+    x + 1
+} else {
+    x + 0
+};
+//How do you add a point to the score if they click the right button
+
+//---------------------------------------------- q2
+
+let sv2 = document.querySelector('input[name="num3"]:checked')?.value
+if(sv2 === '3'){
+    x + 1
+} else {
+    x + 0
+};
+
+//How do you add a point to the score if they click the right button
+
+//---------------------------------------------- q3
+
+let sv3 = document.querySelector('input[name="agree"]:checked')?.value
+if(sv3 === 'True'){
+    x + 1
+} else {
+    x + 0
+};
+
+//How do you add a point to the score if they click the right button
+
+//---------------------------------------------- q4
+
 let q4 = document.querySelector("q4");
+let a4 = 67;
+function q4() {
+if (a4 === "67")
+    x + 1
+} else {
+    x + 0
+};
+
+//---------------------------------------------- q5
+
 let q5 = document.querySelector("q5");
+let a5 = "NO";
+function q5() {
+if (a5 === "no")
+    x + 1
+} else {
+    x + 0
+};
+
+//---------------------------------------------- q6
+
 let q6 = document.querySelector("q6");
+
+
+//---------------------------------------------- q7
+
 let q7 = document.querySelector("q7");
-
-
-
 let a71 = document.querySelector(".a71").value;
 let a72 = document.querySelector(".a72").value;
 let a73 = document.querySelector(".a73").value;
+
 let displayOrder = document.querySelector(".display-order");
  displayOrder.innerHTML = `Your Order: ${a71}, with a side of ${a72}, and ${a73} as your drink.` ;
-  
-  displayOrder.classList.remove("fade-in");
-  void displayOrder.offsetWidth;
-  displayOrder.classList.add("fade-in");
+
+
+//---------------------------------------------- submit
 
 let fs = document.querySelector("finalscore");  
+
+
 let fbtn = document.querySelector("finalbtn");
-fbtn.addEventListener("click", function () {
-    fs.innerHTML = `you got a $()/7`;
+// fbtn.addEventListener("click", function () {
+//     q1();
+//     q2();
+//     q3();
+//     q4();
+//     q5();
+//     q6();
+//     q7();
+//     fs.innerHTML = `You got a ${x}/7`;
+
 });
 
 
